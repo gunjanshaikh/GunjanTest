@@ -1,0 +1,6 @@
+C:\Users\Gunjan\source\BluArmour_DLL\InProcInjector_updated lol_perfect\InProcInjector\TestCsharp\bin\Release\TestCsharp.exe.config
+C:\Users\Gunjan\source\BluArmour_DLL\InProcInjector_updated lol_perfect\InProcInjector\TestCsharp\bin\Release\TestCsharp.exe
+C:\Users\Gunjan\source\BluArmour_DLL\InProcInjector_updated lol_perfect\InProcInjector\TestCsharp\bin\Release\TestCsharp.pdb
+C:\Users\Gunjan\source\BluArmour_DLL\InProcInjector_updated lol_perfect\InProcInjector\TestCsharp\obj\Release\TestCsharp.csproj.CoreCompileInputs.cache
+C:\Users\Gunjan\source\BluArmour_DLL\InProcInjector_updated lol_perfect\InProcInjector\TestCsharp\obj\Release\TestCsharp.exe
+C:\Users\Gunjan\source\BluArmour_DLL\InProcInjector_updated lol_perfect\InProcInjector\TestCsharp\obj\Release\TestCsharp.pdb

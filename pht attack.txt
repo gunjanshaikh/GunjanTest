@@ -1,0 +1,21 @@
+Pass-the-Hash (PtH) attack: A old version of Key-logger
+
+Introduction:
+The attack can be performed by exploiting Single Sign-On (SS0) through NT Lan Manager (NTLM), Kerberos, and other authentication protocols.
+
+Explanation:
+The attack technique is based on the windows work flow for authentication. Windows doesn't use clear text authentication rather it uses hashes which is stored in Security Accounts Manager (SAM), Local Security Authority Subsystem (LSASS) process memory, the Credential Manager (CredMan) store.
+
+How to gaet hash:
+1: Dumping SAM database.
+2: Sniffing LM and NTLM challenge–response dialogues between client and servers.
+3: Dumping authenticated users' credentials stored by Windows in the memory of the lsass.exe process (Memory scraping).
+
+Scope: 
+Any system using LM or NTLM authentication in combination with any communication protocol (SMB, FTP, RPC, HTTP etc.) is at risk from this attack. 
+
+Mitigations:
+1: TThe exploit is very difficult to defend against, due to possible exploits in Windows and applications running on Windows that can be used by an attacker to elevate privileges and then carry out the hash harvesting that facilitates the attack.
+2: Bluarmour perspective: There is no single technique for targeting these attack, but we can reduce the attack surface by targating some of the hash dumping tools, packet sniffers
+
+
